@@ -37,6 +37,7 @@ var FindProxyForURL = function(init, profiles) {
         if (/googlevideo\.com/.test(host)) return "+Spain_Proxy";
         if (/youtu\.be/.test(host)) return "+Spain_Proxy";
         if (/yt3\.ggpth\.com/.test(host)) return "+Spain_Proxy";
+        if (/\.ggpth\.com/.test(host)) return "+Spain_Proxy";
         if (/ytimg\.com/.test(host)) return "+Spain_Proxy";
         if (/play\.google\.com/.test(host)) return "+Spain_Proxy";
         if (/nhacmp3youtube\.com/.test(host)) return "+Spain_Proxy";
