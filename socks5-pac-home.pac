@@ -20,6 +20,7 @@ var FindProxyForURL = function(init, profiles) {
         if (/cisco\.com/.test(host)) return "+Spain_Proxy";
         if (/cdn\.oaistatic\.com/.test(host)) return "+Spain_Proxy";
         if (/medium\.com/.test(host)) return "+Spain_Proxy";
+        if (/gost\.run/.test(host)) return "+Spain_Proxy";
         if (/claude\.ai/.test(host)) return "+Spain_Proxy";
         if (/anthropic\.com/.test(host)) return "+Spain_Proxy";
         if (/oaiusercontent\.com/.test(host)) return "+Spain_Proxy";
