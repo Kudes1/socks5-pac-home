@@ -25,6 +25,9 @@ var FindProxyForURL = function(init, profiles) {
         if (/oaiusercontent\.com/.test(host)) return "+Spain_Proxy";
         if (/openai\.com/.test(host)) return "+Spain_Proxy";
         if (/hdrezka/.test(host)) return "+Spain_Proxy";
+        if (/statichdrezka\.ac/.test(host)) return "+Spain_Proxy";
+        if (/flymaterez\.net/.test(host)) return "+Spain_Proxy";
+        if (/parthenon\.vdbmate\.org/.test(host)) return "+Spain_Proxy";
         if (/intel\.com/.test(host)) return "+Spain_Proxy";
         if (/meta\.com/.test(host)) return "+Spain_Proxy";
         if (/news\.google\.com/.test(host)) return "+Spain_Proxy";
@@ -61,3 +64,4 @@ var FindProxyForURL = function(init, profiles) {
         return "SOCKS5 192.168.0.76:1080; SOCKS 192.168.0.76:1080";
     }
 });
+
