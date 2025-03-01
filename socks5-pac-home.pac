@@ -66,3 +66,4 @@ var FindProxyForURL = function(init, profiles) {
         return "SOCKS5 192.168.0.76:1080; SOCKS 192.168.0.76:1080";
     }
 });
+
